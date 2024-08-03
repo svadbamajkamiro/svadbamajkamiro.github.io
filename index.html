@@ -128,8 +128,6 @@
     
      <h4 id="pre-countdown-text">Do našej svadby ostáva</h4>
      <h2 id="countdown" style="margin-top: 0; font-size: 3rem;">Prepočítavam</h2>
-    
-    <!-- <h4 id="countdown" style="margin-top: 0; font-size: 3rem;">Prepočítavam</h2> -->
 
     
     <div style="display: flex; justify-content: center; margin-top: 1rem; margin-bottom: 1rem;">
@@ -158,7 +156,6 @@
     </div>
     
     <h2 style="margin-bottom: 0; margin-top: 3rem;">Svadobná hostina</h2>
-<!--     <h4>Obecný úrad Kobyly, Kobyly 57</h4> -->
     <h4>Šariš Hotel & Reštaurácia, Bardejov</h4>
     <div style="display: flex; justify-content: center;">
       <div style="width: 50%; height: 350px;">
@@ -260,12 +257,12 @@
     }, 1000);
 
     // Google Map
-    // function initMap() {
-    //   var map = new google.maps.Map(document.getElementById('map'), {
-    //     center: {lat: 48.9976, lng: 21.2406},
-    //     zoom: 13
-    //   });
-    // }
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+         center: {lat: 48.9976, lng: 21.2406},
+         zoom: 13
+       });
+    }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </body>

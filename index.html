@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marek & Lucia</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+
+    h1, h2, h4 {
+      font-family: 'Courier Prime', monospace;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: #FFFFFF;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .navbar a {
+      font-size: 25pt;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      color: black;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1{
+      font-size: 40pt;
+    }
+
+    .navbar h1 {
+      order: 1;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    
+    .info {
+      order: 2;
+    }
+    
+    .dary {
+      order: 3;
+    }
+
+    main, footer {
+      background-color: #FFF;
+/*       background-color: #F3F6F5; */
+    }
+    
+    main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+    }
+    
+    @media screen and (min-width: 960px) {
+      .navbar {
+        justify-content: space-evenly;
+        flex-direction: row;
+      }
+      
+      .navbar h1 {
+        order: 2;
+      }
+      
+      .navbar .info {
+        order: 1;
+      }
+      
+      .navbar a {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    @media screen and (max-width: 960px) and (min-width: 20px) {
+      h1 {
+        font-size: 55pt;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      h4 {
+        font-size: 1.5rem;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+<!--     <a href="index.html" class="info">INFO</a> -->
+    <h1 style="margin-top: 4rem;">Marek a Lucia</h1>
+<!--     <a href="photos.html" class="dary">DARY</a> -->
+  </nav>
+  
+  <main>
+    <h2>2. september 2023</h2>
+    <h2>15.00</h2>
+
+    <!-- listok -->
+    <div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
+      <img src="black leaf.svg" alt="Predel - lístok" style="max-height: 10rem; max-width: 7.04rem;">
+    </div>
+    
+<!--     <h4 id="pre-countdown-text">Do našej svadby ostáva</h4> -->
+<!--     <h2 id="countdown" style="margin-top: 0; font-size: 3rem;">Prepočítavam</h2> -->
+    
+    <h4 id="countdown" style="margin-top: 0; font-size: 3rem;">Prepočítavam</h2>
+
+    
+    <div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
+      <img src="black leaf.svg" alt="Predel - lístok" style="max-height: 10rem; max-width: 7.04rem;">
+    </div>
+    
+    <h4 style="margin-bottom: 0;">Drahí svadobní hostia,</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">oslávte náš veľký deň s nami</h4>
+    <h4 style="margin-top: 1rem;">a naša radosť bude úplná.</h4>
+    
+
+    <h2 style="margin-bottom: 0;">Sobáš</h2>
+    <h4>Námestie Sv. Rodiny 1, Bardejov</h4>
+    <div style="display: flex; justify-content: center;">
+      <div style="width: 50%; height: 350px;">
+        <iframe
+          alt="Farský kostol Svätej rodiny"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          style="border:0"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.702272982524!2d21.265603752943193!3d49.30189887972643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39f3b4e052f4f051!2sParish%20Church%20of%20the%20Holy%20Family!5e0!3m2!1sen!2s!4v1630652716601!5m2!1sen!2s&zoom=23"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    
+    <h2 style="margin-bottom: 0; margin-top: 3rem;">Svadba</h2>
+<!--     <h4>Obecný úrad Kobyly, Kobyly 57</h4> -->
+    <h4>Kobyly 57 - obecný úrad</h4>
+    <div style="display: flex; justify-content: center;">
+      <div style="width: 50%; height: 350px;">
+        <iframe
+          alt="Obecný úrad Kobyly"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          style="border:0"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.702272982524!2d21.296054194752447!3d49.21385531622174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39f3b4e052f4f051!2sParish%20Church%20of%20the%20Holy%20Family!5e0!3m2!1sen!2s!4v1630652716601!5m2!1sen!2s&zoom=23"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
+      <img src="black leaf.svg" alt="Predel - lístok" style="max-height: 10rem; max-width: 7.04rem;">
+    </div>
+
+    <h2 style="margin-bottom: 0;">Dotazník</h2>
+    <h4 style="margin-bottom: 0;">Chceli by sme vás poprosiť</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">o vyplnenie <a href="https://forms.gle/Pt6oDWGwMtH3JxKb8" target="_blank">dotazníka</a>,</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">ktorý nám uľahčí prípravu</h4>
+    <h4 style="margin-top: 1rem;">svadobnej hostiny.</h4>
+
+    <div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
+      <img src="black leaf.svg" alt="Predel - lístok" style="max-height: 10rem; max-width: 7.04rem;">
+    </div>
+
+    <h2 style="margin-bottom: 0;">Dary</h2>
+    <h4 style="margin-bottom: 0;">Budeme veľmi vďační za každý dar,</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">ktorým podporíte naše začínajúce manželstvo.</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">No najväčším darom je vaša modlitba</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">a prítomnosť na sobáši.</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">Ak sa nás rozhodnete podporiť aj inak, </h4>
+    <h4 style="margin-top: 1rem">môžete to urobiť rôznymi spôsobmi:</h4>
+      
+    <h4 style="margin-bottom: 0;">Finančne:</h4>
+
+    <div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
+      <img src="qrkod.jpg" alt="QR kód na platbu" style="max-width: 200px;">
+    </div>
+    
+    <h4>Hmotne: <a href="https://docs.google.com/spreadsheets/d/1Za75lQMSqnTZXxX9U1NNj5SzG4NHoZGFX-UJ7jZBxiQ/edit?usp=sharing" target="_blank">link</a></h4>
+      
+    <h4 style="margin-bottom: 0;">Kvietkami sa nemusíte</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">zaťažovať, môžete nás nimi</h4>
+    <h4 style="margin-top: 1rem;">potešiť v priebehu roka.</h4>
+
+    <div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
+      <img src="black leaf.svg" alt="Predel - lístok" style="max-height: 10rem; max-width: 7.04rem;">
+    </div>
+
+    <h2 style="margin-bottom: 0;">Fotky</h2>
+    <h4 style="margin-bottom: 0;">Ak sa s nami chcete podeliť</h4>
+    <h4 style="margin-bottom: 0; margin-top: 1rem;">o vaše fotky zo svadby,</h4>
+<!--     <h4 style="margin-top: 1rem;">môžete nám ich nahrať <a href="https://drive.google.com/drive/folders/14bvdEN7Tf-UmxV6jrXVQejviAG6NNQ7Q?usp=sharing" target="_blank">tu</a>.</h4> -->
+    <h4 style="margin-top: 1rem;">môžete nám ich nahrať tu (už nefunkčné).</h4>
+    
+    <div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
+      <img src="black leaf.svg" alt="Predel - lístok" style="max-height: 10rem; max-width: 7.04rem;">
+    </div>
+  </main>
+
+  <footer>
+    <h2 style="margin-bottom: 4rem;">Tešíme sa na vás!</h2>
+  </footer>
+
+  <script>
+    // Countdown Timer
+    var countDownDate = new Date("September 2, 2023 15:00:00").getTime();
+    // var countDownDate = new Date("July 11, 2023 14:35:00").getTime();
+
+    var countdown = document.getElementById("countdown");
+    var preCountdownText = document.getElementById("pre-countdown-text");
+
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // po sobáši
+      days = -days
+      days = days -1
+      
+      var countdownElement = document.getElementById("countdown");
+      // countdownElement.innerHTML = -days + "d " + -hours + "h " + minutes + "m " + seconds + "s";
+      countdownElement.innerHTML = "Sme svoji už " + days + " dní!";
+
+      // if (distance < 0) {
+      //   clearInterval(x);
+      //   countdown.innerHTML = "Už sa to začalo!";
+      //   preCountdownText.innerHTML = "";
+      // }
+    }, 1000);
+
+    // Google Map
+    // function initMap() {
+    //   var map = new google.maps.Map(document.getElementById('map'), {
+    //     center: {lat: 48.9976, lng: 21.2406},
+    //     zoom: 13
+    //   });
+    // }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>

@@ -243,11 +243,11 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // po sobáši
-      days = -days
+      //days = -days
       //days = days - 1
       
       var countdownElement = document.getElementById("countdown");
-      countdownElement.innerHTML = -days + "d " + -hours + "h " + minutes + "m " + seconds + "s";
+      countdownElement.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
       //countdownElement.innerHTML = "Sme svoji už " + days + " dní!";
 
       // if (distance < 0) {
